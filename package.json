@@ -1,0 +1,32 @@
+{
+  "name": "angular-discard-form",
+  "version": "0.0.1",
+  "description": "Angulars directive for managing states of the model in the form.",
+  "keywords": [
+    "directive",
+    "form",
+    "discard",
+    "states",
+    "angular"
+  ],
+  "homepage": "https://github.com/hamxabaig/angular-discard-form",
+  "license": "MIT",
+  "author": "Hamza Baig",
+  "contributors": [
+    {
+      "name": "Omer Baig",
+      "email": "umerbaig64@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hamxabaig/angular-discard-form"
+  },
+  "devDependencies": {
+    "angular": "^1.5.7",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-webserver": "^0.9.1",
+    "opn": "^4.0.2"
+  }
+}

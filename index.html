@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Angular Discard Form</title>
+</head>
+<body ng-app="app" ng-controller="APPController as vm">
+
+	<form  discard-form>
+		<p>< form ></p>
+		<div>
+			<input discard-element type="text" ng-model="vm.model.text1" style="margin-bottom: 10px">
+		</div>
+		<div>
+			<input discard-element type="text" ng-model="vm.model.text2" style="margin-bottom: 10px">
+		</div>
+		<p>< form /></p>
+
+		<button type="button" ng-click="">Discard</button>
+		<button type="submit" ng-click="">Submit</button>
+	</form>
+
+	<script type="text/javascript" src="/node_modules/angular/angular.js"></script>
+	<script type="text/javascript" src="/src/app.js"></script>
+	<script type="text/javascript" src="/src/form.directive.js"></script>
+	<script type="text/javascript" src="/src/elements.directive.js"></script>
+</body>
+</html>
